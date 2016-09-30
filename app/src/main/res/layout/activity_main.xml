@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lucas.mynanodegreeapps.app.MainActivity">
+
+    <TextView
+        android:id="@+id/txtapps"
+        android:text="My Nanodegree Apps"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btpopularmovies"
+        android:text="Popular Movies"
+        android:textColor="#FFFFFF"
+        android:background="@color/button"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtapps"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btmakematerial"
+        android:layout_alignRight="@+id/btmakematerial" />
+    <Button
+        android:id="@+id/btstockhawk"
+        android:text="Stock Hawk"
+        android:textColor="#FFFFFF"
+        android:background="@color/button"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btpopularmovies"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btmakematerial"
+        android:layout_alignRight="@+id/btmakematerial" />
+
+    <Button
+        android:id="@+id/btmakematerial"
+        android:text="Make Your App Material"
+        android:textColor="#FFFFFF"
+        android:background="@color/button"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btstockhawk"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btgoubiquitous"
+        android:text="Popular Movies"
+        android:textColor="#FFFFFF"
+        android:background="@color/button"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btmakematerial"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btmakematerial"
+        android:layout_alignRight="@+id/btmakematerial" />
+
+    <Button
+        android:id="@+id/btcapstone"
+        android:text="Capstone"
+        android:textColor="#FFFFFF"
+        android:background="@color/button"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btgoubiquitous"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btmakematerial"
+        android:layout_alignRight="@+id/btmakematerial" />
+
+</RelativeLayout>

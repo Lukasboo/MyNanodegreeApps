@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyNanodegreeApps</string>
+    <string name="btpopularmovies_message">This Button will launch my Popular Movies App</string>
+    <string name="btstockhawk_message">This Button will launch my Stock Hawk App</string>
+    <string name="btmakematerial_message">This Button will launch my Make Your App Material App</string>
+    <string name="btgoubiquitous_message">This Button will launch my Go Ubiquitous App</string>
+    <string name="btcapstone_message">This Button will launch my Capstone App</string>
+</resources>
