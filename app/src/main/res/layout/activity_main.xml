@@ -57,7 +57,7 @@
 
     <Button
         android:id="@+id/btgoubiquitous"
-        android:text="Popular Movies"
+        android:text="Go Ubiquitous"
         android:textColor="#FFFFFF"
         android:background="@color/button"
         android:padding="10dp"
